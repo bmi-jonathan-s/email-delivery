@@ -65,9 +65,9 @@ Add the following commands to **Transports Configuration** in the section labele
 
 `hosts = smtp.sendgrid.net`
 
-`hosts_require_auth = smtp.sendgrid.net`
+`hosts_require_auth = <; $host_address`
 
-`hosts_require_tls = smtp.sendgrid.net`
+`hosts_require_tls = <; $host_address`
 
 Click the **Save** at the bottom of the page.
 
